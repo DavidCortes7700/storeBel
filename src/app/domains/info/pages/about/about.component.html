@@ -1,0 +1,12 @@
+<div class="px-10">
+  <h1 class="text-lg font-bold">About</h1>
+  <p class="text-xs">Lorem ipsum dolor <span highlight>sit amet, consectetur adipisicing elit.</span> Quidem iusto
+    eaque ex rerum. Excepturi accusamus facilis saepe illo? Officiis quisquam quia ducimus esse molestiae minima
+    autem, animi cum dolore quae.</p>
+  <p class="text-sm">Numero de clientes:
+    <counter [duration]="duration()" [message]="message()" *ngIf="duration()>0" />
+  </p>
+  <div>
+    <wave-audio [audioUrl]="'assets/audio/audio.mp3'"></wave-audio>
+  </div>
+</div>
